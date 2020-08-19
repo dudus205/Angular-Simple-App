@@ -1,0 +1,29 @@
+span {
+  font-weight: bold;
+  background: lightgray;
+  padding: .3em .8em;
+  cursor: pointer;
+  &:active{
+    background: #f3f3f3;
+  }
+}
+
+.play-container {
+  padding: 3em;
+  border: 1px solid lightgray;
+  margin-bottom: 1em;
+
+  input {
+    padding: 1em;
+    margin-bottom: 2em;
+  }
+}
+
+.notActive {
+  background-color: lightgray;
+}
+
+.active {
+  background-color: rgba(229, 229, 0, 0.72);
+  border: 2px solid black;
+}
